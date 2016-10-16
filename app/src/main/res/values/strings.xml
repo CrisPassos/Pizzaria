@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pizzaria</string>
+    <string name="app_queijo">Queijo</string>
+    <string name="app_calabresa">Calabresa</string>
+    <string name="app_portuguesa">Portuguesa</string>
+    <string name="app_borda">Borda Recheada</string>
+    <string name="app_calcular">Calcular</string>
+    <string name="app_valor">Valor da Compra </string>
 </resources>

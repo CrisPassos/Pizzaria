@@ -10,8 +10,53 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.cristiana.pizzaria.PizzariaActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rbgSabores">
+
+            <RadioButton
+                android:text="@string/app_queijo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbt_queijo"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/app_calabresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbtCalabresa"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/app_portuguesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbtPortuguesa"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="@string/app_borda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ckbBorda"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/app_calcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCalcular"
+                android:layout_weight="1"
+                android:onClick="calcular"/>
+        </RadioGroup>
+    </LinearLayout>
 </RelativeLayout>
