@@ -50,6 +50,13 @@
                 android:id="@+id/ckbBorda"
                 android:layout_weight="1" />
 
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spFormaPagamento"
+                android:layout_weight="1"
+                android:entries="@array/app_forma_pagamento"/>
+
             <Button
                 android:text="@string/app_calcular"
                 android:layout_width="match_parent"

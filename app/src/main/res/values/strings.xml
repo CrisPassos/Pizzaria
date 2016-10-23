@@ -6,4 +6,10 @@
     <string name="app_borda">Borda Recheada</string>
     <string name="app_calcular">Calcular</string>
     <string name="app_valor">Valor da Compra </string>
+    
+<string-array name="app_forma_pagamento">
+    <item>Cartão de Crédito</item>
+    <item>Dinheiro</item>
+    <item>Vale Refeição</item>
+</string-array>
 </resources>
